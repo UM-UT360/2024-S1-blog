@@ -42,10 +42,9 @@ const siteConfig: SiteConfig = {
     subtitle: 'Class blog for UT360',
     description: 'Notes, updates & project artifacts from the class',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '',
+        alt: ''
     },
-
     headerNavLinks: [
         {
             text: 'Home',

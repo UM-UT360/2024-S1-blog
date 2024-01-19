@@ -4,16 +4,16 @@
 
 @layer base {
     :root {
-        --color-text-main: rgb(0, 42, 84); /* U-M Deep Blue: #002A54 */
-        --color-bg-main: rgb(255, 224, 102); /* Soft Maize: #FFE066 */
-        --color-bg-muted: rgb(255, 239, 153); /* Lighter Maize: #FFE999 */
-        --color-border-main: rgb(0, 42, 84); /* U-M Deep Blue: #002A54 */
+        --color-text-main: 0 42 84; /* #002A54 */
+        --color-bg-main: 255 224 102; /* #FFE066 */
+        --color-bg-muted: 255 239 153; /* #FFE999 */
+        --color-border-main: 0 42 84; /* #OO2A54 */
     }
     html.dark {
-        --color-text-main: rgb(255, 203, 5); /* U-M Maize: #FFCB05 */
-        --color-bg-main: rgb(3, 37, 76); /* Dark U-M Blue: #03254C */
-        --color-bg-muted: rgb(15, 52, 96); /* Slightly Lighter Blue: #0F3460 */
-        --color-border-main: rgb(255, 203, 5); /* U-M Maize: #FFCB05 */
+        --color-text-main: 255 203 5; /* #FFCB05 */
+        --color-bg-main: 3 37 76; /* #03254C */
+        --color-bg-muted: 15 52 96; /* #0F3460 */
+        --color-border-main: 255 203 5; /* #FFCB05 */
     }
 
     /* Cyan */

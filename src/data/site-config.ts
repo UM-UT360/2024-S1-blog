@@ -39,7 +39,7 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Service Design & Urban Needs',
-    subtitle: 'UT360,
+    subtitle: 'UT360',
     description: 'The class blog for our Winter 2024 term course',
     image: {
         src: ',

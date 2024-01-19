@@ -99,7 +99,7 @@ const siteConfig: SiteConfig = {
         title: 'Welcome to our class blog',
         text: "Throughout the semester, we'll be posting dispatches from our research and project working with the MEDC Grow Michigan team, as we examine the idea of onboarding new residents to Michigan",
         image: {
-            src: '/,
+            src: '',
             alt: ''
         },
         actions: [

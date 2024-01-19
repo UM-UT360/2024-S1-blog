@@ -4,16 +4,18 @@
 
 @layer base {
     :root {
-        --color-text-main: 10, 31, 68; /* Dark Blue */
-        --color-bg-main: 255, 223, 0; /* Light Maize */
-        --color-bg-muted: 255, 228, 100; /* Muted Maize */
-        --color-border-main: 10, 31, 68; /* Dark Blue */
+        --color-text-main: 15, 52, 96; /* Dark Blue */
+        --color-bg-main: 255, 235, 180; /* Soft Maize */
+        --color-bg-muted: 230, 220, 170; /* Muted Maize */
+        --color-border-main: 15, 52, 96; /* Dark Blue */
+        --color-accent: 96, 125, 139; /* Soft Gray-Blue for accents */
     }
     html.dark {
-        --color-text-main: 255, 223, 0; /* Maize */
-        --color-bg-main: 10, 31, 68; /* Dark Blue */
-        --color-bg-muted: 0, 20, 60; /* Muted Blue */
-        --color-border-main: 255, 223, 0; /* Maize */
+        --color-text-main: 255, 235, 180; /* Soft Maize */
+        --color-bg-main: 15, 52, 96; /* Dark Blue */
+        --color-bg-muted: 10, 25, 47; /* Darker Blue */
+        --color-border-main: 255, 235, 180; /* Soft Maize */
+        --color-accent: 176, 190, 197; /* Light Gray-Blue for dark mode accents */
     }
 
     /* Cyan */

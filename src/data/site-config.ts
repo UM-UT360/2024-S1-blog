@@ -39,8 +39,13 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Service Design & Urban Needs',
-    subtitle: 'UT360',
-    description: 'The class blog for our Winter 2024 term course',
+    subtitle: 'Class blog for UT360',
+    description: 'Notes, updates & project artifacts from the class',
+    image: {
+        src: '/dante-preview.jpg',
+        alt: 'Dante - Astro.js and Tailwind CSS theme'
+    },
+
     headerNavLinks: [
         {
             text: 'Home',

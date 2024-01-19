@@ -4,49 +4,46 @@
 
 @layer base {
     :root {
-        --color-text-main: 15, 52, 96; /* Dark Blue */
-        --color-bg-main: 255, 235, 180; /* Soft Maize */
-        --color-bg-muted: 230, 220, 170; /* Muted Maize */
-        --color-border-main: 15, 52, 96; /* Dark Blue */
-        --color-accent: 96, 125, 139; /* Soft Gray-Blue for accents */
+        --color-text-main: 0 39 76; /* Dark Blue: #00274C */
+        --color-bg-main: 255 203 5; /* Maize: #FFCB05 */
+        --color-bg-muted: 255 233 154; /* Lighter Maize: #FFE99A */
+        --color-border-main: 0 39 76; /* Dark Blue: #00274C */
     }
     html.dark {
-        --color-text-main: 255, 235, 180; /* Soft Maize */
-        --color-bg-main: 15, 52, 96; /* Dark Blue */
-        --color-bg-muted: 10, 25, 47; /* Darker Blue */
-        --color-border-main: 255, 235, 180; /* Soft Maize */
-        --color-accent: 176, 190, 197; /* Light Gray-Blue for dark mode accents */
+        --color-text-main: 255 203 5; /* Maize: #FFCB05 */
+        --color-bg-main: 0 39 76; /* Dark Blue: #00274C */
+        --color-bg-muted: 3 22 52; /* Darker Blue: #031634 */
+        --color-border-main: 255 203 5; /* Maize: #FFCB05 */
     }
 
-    /* Cyan */
-    /*
-    :root {
-        --color-text-main: 22 42 43;
-        --color-bg-main: 214 224 226;
-        --color-bg-muted: 204 216 219;
-        --color-border-main: 22 42 43;
-    }
-    html.dark {
-        --color-text-main: 214 224 226;
-        --color-bg-main: 22 42 43;
-        --color-bg-muted: 28 53 55;
-        --color-border-main: 214 224 226;
-    }
-    */
-
-    /* Green */
-    /*
-    :root {
-        --color-text-main: 58 66 56;
-        --color-bg-main: 243 239 230;
-        --color-bg-muted: 238 233 220;
-        --color-border-main: 58 66 56;
-    }
-    html.dark {
-        --color-text-main: 243 239 230;
-        --color-bg-main: 94 108 91;
-        --color-bg-muted: 89 103 86;
-        --color-border-main: 243 239 230;
-    }
-    */
+/* Cyan */
+/*
+:root {
+    --color-text-main: 0 39 76; /* Dark Blue: #00274C */
+    --color-bg-main: 173 216 230; /* Light Blue: #ADD8E6 */
+    --color-bg-muted: 191 239 255; /* Lighter Blue: #BFEFFF */
+    --color-border-main: 0 39 76; /* Dark Blue: #00274C */
 }
+html.dark {
+    --color-text-main: 173 216 230; /* Light Blue: #ADD8E6 */
+    --color-bg-main: 0 39 76; /* Dark Blue: #00274C */
+    --color-bg-muted: 25 25 112; /* Midnight Blue: #191970 */
+    --color-border-main: 173 216 230; /* Light Blue: #ADD8E6 */
+}
+*/
+
+/* Green */
+/*
+:root {
+    --color-text-main: 1 50 32; /* Forest Green: #013220 */
+    --color-bg-main: 144 238 144; /* Light Green: #90EE90 */
+    --color-bg-muted: 152 251 152; /* Pale Green: #98FB98 */
+    --color-border-main: 1 50 32; /* Forest Green: #013220 */
+}
+html.dark {
+    --color-text-main: 144 238 144; /* Light Green: #90EE90 */
+    --color-bg-main: 1 50 32; /* Forest Green: #013220 */
+    --color-bg-muted: 0 100 0; /* Dark Green: #006400 */
+    --color-border-main: 144 238 144; /* Light Green: #90EE90 */
+}
+*/
